@@ -16,8 +16,12 @@ public class Testing {
 	}
 	
 	@Test
-	public void test1() {
+	public void checkOut() {
 		Books book2 = new Books("Snow White");
 		assertEquals("Not working", "Snow White", book.checkRecords(book2));
+	}
+	@Test
+	public void addBook() {
+		
 	}
 }
